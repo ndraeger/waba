@@ -1,0 +1,20 @@
+name: waba
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::torchvision=0.12.0
+  - opencv
+  - tensorboard
+  - conda-forge::cudatoolkit=11.7
+  - cupy
+  - kornia
+  - numpy
+  - pandas
+  - pillow
+  - conda-forge::pytorch=1.11.0
+  - conda-forge::cudnn=8.4.1.50
+  - matplotlib
+  - urllib3
+  - python=3.9
+  - pywavelets
